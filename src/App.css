@@ -13,6 +13,10 @@ body {
 .m-5-auto {
     margin: 5rem auto
 }
+.new-5-auto {
+    margin: auto
+}
+
 
 .primary-button {
     margin-top: 5rem;
@@ -41,10 +45,16 @@ body {
     text-transform: uppercase
 }
 
+
 .main-para {
-    font-size: 2.5rem;
-    text-Transform: capitalize
+    color: #222;
+    font-size: 5rem;
+    text-Transform: capitalize;
+    padding-top: 5%;
+    
 }
+
+
 
 #reg_btn span {
     display: inline-block;
@@ -77,18 +87,20 @@ h2 {
 
 form {
     display: inline-block;
-    background: #f3f3f3;
+    background: black;
     border: 1px solid #ddd;
     border-radius: 2px;
     padding: 2rem;
     margin: 2rem 0 1rem 0
+
 }
 
 form label {
     float: left;
     font-size: .9rem;
     margin: 0;
-    padding: 0
+    padding: 0;
+    color:white;
 }
 
 .right-label {
@@ -109,7 +121,7 @@ input {
     width: 100%;
     padding: .3rem;
     border: none;
-    background: #222;
+    background: #444;
     color: #fff;
     border-radius: 3px;
 }
